@@ -1,0 +1,39 @@
+{
+  "name": "notoday",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Eduardo Fernandes <eduardo.fernandes.work@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/edunad/notoday",
+  "changelog": "https://github.com/edunad/notoday/blob/master/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/edunad/notoday/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edunad/notoday.git"
+  },
+  "main": "./.bin/cli.js",
+  "bin": "./.bin/cli.js",
+  "scripts": {
+    "prepare": "gulp build"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "preferGlobal": true,
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "npm",
+    "node",
+    "dependencies",
+    "cli",
+    "ignore"
+  ]
+}
